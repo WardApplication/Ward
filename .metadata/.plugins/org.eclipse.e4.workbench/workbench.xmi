@@ -8,7 +8,7 @@
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
-    <persistedState key="aggregateWorkingSetId"/>
+    <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1458058357588"/>
     <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;show_in_time/>"/>
     <tags>topLevel</tags>
     <tags>shellMaximized</tags>
@@ -78,7 +78,7 @@
               <children xsi:type="advanced:Placeholder" xmi:id="_QsUYROrIEeW-ooS90k59vg" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_QpEP8OrIEeW-ooS90k59vg"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_QsUYRerIEeW-ooS90k59vg" elementId="org.eclipse.jdt.ui.PackagesView" toBeRendered="false" ref="_QsCrcOrIEeW-ooS90k59vg"/>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_QsUYRurIEeW-ooS90k59vg" containerData="7500">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_QsUYRurIEeW-ooS90k59vg" containerData="7500" selectedElement="_QsUYTOrIEeW-ooS90k59vg">
               <children xsi:type="basic:PartSashContainer" xmi:id="_QsUYR-rIEeW-ooS90k59vg" containerData="7000" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_QsUYSOrIEeW-ooS90k59vg" elementId="org.eclipse.ui.editorss" containerData="7000" ref="_Qob90OrIEeW-ooS90k59vg"/>
                 <children xsi:type="basic:PartStack" xmi:id="_QsUYSerIEeW-ooS90k59vg" elementId="topRight" containerData="3000" selectedElement="_QsUYSurIEeW-ooS90k59vg">
@@ -86,7 +86,8 @@
                   <children xsi:type="advanced:Placeholder" xmi:id="_QsUYS-rIEeW-ooS90k59vg" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" ref="_QsNDgOrIEeW-ooS90k59vg"/>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_QsUYTOrIEeW-ooS90k59vg" elementId="bottomRight" containerData="3000" selectedElement="_QsUYTerIEeW-ooS90k59vg">
+              <children xsi:type="basic:PartStack" xmi:id="_QsUYTOrIEeW-ooS90k59vg" elementId="bottomRight" containerData="3000" selectedElement="_ySxxgOrIEeWwKbmi9lm_NA">
+                <tags>Git</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_QsUYTerIEeW-ooS90k59vg" elementId="org.eclipse.ui.views.AllMarkersView" ref="_QsDSgOrIEeW-ooS90k59vg"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_QsUYTurIEeW-ooS90k59vg" elementId="org.eclipse.ui.views.PropertySheet" ref="_QsD5kOrIEeW-ooS90k59vg"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_QsUYT-rIEeW-ooS90k59vg" elementId="org.eclipse.wst.server.ui.ServersView" ref="_QsFHsOrIEeW-ooS90k59vg"/>
@@ -98,6 +99,16 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_QsUYVerIEeW-ooS90k59vg" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_QsKAMurIEeW-ooS90k59vg"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_QsUYVurIEeW-ooS90k59vg" elementId="org.eclipse.ui.views.ProgressView" toBeRendered="false" ref="_QsKAM-rIEeW-ooS90k59vg"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_QsUYV-rIEeW-ooS90k59vg" elementId="org.eclipse.search.ui.views.SearchView" toBeRendered="false" ref="_QsKnQOrIEeW-ooS90k59vg"/>
+                <children xsi:type="basic:Part" xmi:id="_ySxxgOrIEeWwKbmi9lm_NA" elementId="org.eclipse.egit.ui.RepositoriesView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Git Repositories" iconURI="platform:/plugin/org.eclipse.egit.ui/icons/eview16/repo_rep.gif" tooltip="" closeable="true">
+                  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot;/>"/>
+                  <tags>View</tags>
+                  <tags>categoryTag:Git</tags>
+                  <menus xmi:id="_yTOdcOrIEeWwKbmi9lm_NA" elementId="org.eclipse.egit.ui.RepositoriesView">
+                    <tags>ViewMenu</tags>
+                    <tags>menuContribution:menu</tags>
+                  </menus>
+                  <toolbar xmi:id="_yTPEgOrIEeWwKbmi9lm_NA" elementId="org.eclipse.egit.ui.RepositoriesView"/>
+                </children>
               </children>
             </children>
           </children>
@@ -133,7 +144,7 @@
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_Qo-wYOrIEeW-ooS90k59vg" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.gif" tooltip="" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1458058357588&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <tags>active</tags>
@@ -164,7 +175,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_RGt1QerIEeW-ooS90k59vg" elementId="org.eclipse.ui.views.AllMarkersView"/>
+      <toolbar xmi:id="_RGt1QerIEeW-ooS90k59vg" elementId="org.eclipse.ui.views.AllMarkersView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_QsD5kOrIEeW-ooS90k59vg" elementId="org.eclipse.ui.views.PropertySheet" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Properties" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/prop_ps.png" tooltip="" closeable="true">
       <tags>View</tags>
@@ -227,7 +238,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_QQCr8OrIEeW-ooS90k59vg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_QQbtgOrIEeW-ooS90k59vg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_PZTRTerIEeW-ooS90k59vg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_tISCkOrIEeWwKbmi9lm_NA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_PZTRTerIEeW-ooS90k59vg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_QQDTAOrIEeW-ooS90k59vg" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -254,7 +265,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_QQD6EOrIEeW-ooS90k59vg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_QQfX4OrIEeW-ooS90k59vg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_PZSDF-rIEeW-ooS90k59vg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_tIdowOrIEeWwKbmi9lm_NA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_PZSDF-rIEeW-ooS90k59vg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_QQD6EerIEeW-ooS90k59vg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
